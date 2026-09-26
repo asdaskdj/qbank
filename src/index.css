@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+@import "katex/dist/katex.min.css";
+
+@theme {
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --color-brand-50: #f3f0ff;
+  --color-brand-100: #e9e3ff;
+  --color-brand-200: #d6c9ff;
+  --color-brand-300: #b9a6f5;
+  --color-brand-400: #9a82e6;
+  --color-brand-500: #7c63d8;
+  --color-brand-600: #6b5acd;
+  --color-brand-700: #5646ad;
+  --color-brand-800: #43378a;
+  --color-navy-900: #1b2340;
+  --color-navy-800: #232e52;
+  --color-navy-700: #2c3963;
+}
+
+html { font-family: var(--font-sans); }
+body { background: #f7f6fb; color: #1f2937; }
+* { -webkit-font-smoothing: antialiased; }
+
+.katex { font-size: 1.02em; }
+
+/* print */
+@media print {
+  body { background: white; }
+  .no-print { display: none !important; }
+  .print-page { box-shadow: none !important; margin: 0 !important; border: none !important; }
+  @page { size: A4; margin: 0; }
+}
