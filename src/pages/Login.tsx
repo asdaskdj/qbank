@@ -38,7 +38,7 @@ export default function Login() {
         <div className="mb-8 flex items-center gap-3">
           <div className="grid h-12 w-12 place-items-center rounded-2xl bg-gradient-to-br from-brand-300 to-brand-600 text-white shadow"><Sparkles size={22} /></div>
           <div>
-            <h1 className="text-3xl font-black tracking-tight text-gray-900">뷰티풀매스 문제은행</h1>
+            <h1 className="text-3xl font-black tracking-tight text-gray-900">이인제의 문제은행</h1>
             <p className="mt-1 text-gray-500">선생님 계정으로 들어오십시오.</p>
           </div>
         </div>
