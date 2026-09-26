@@ -13,7 +13,7 @@ export default function WizardHeader({ step, title }: { step: 1 | 2 | 3; title: 
         <span className="text-sm font-extrabold tracking-wide text-brand-600">STEP {step}</span>
         <span className="text-lg font-extrabold text-gray-900">{title}</span>
       </div>
-      <span className="rounded-lg border border-gray-200 px-2.5 py-1 text-xs font-semibold text-gray-500">뷰티풀매스 문제은행</span>
+      <span className="rounded-lg border border-gray-200 px-2.5 py-1 text-xs font-semibold text-gray-500">이인제의 문제은행</span>
       <div className="mx-auto flex items-center gap-5">
         {STEPS.map((s, i) => {
           const n = (i + 1) as 1 | 2 | 3
